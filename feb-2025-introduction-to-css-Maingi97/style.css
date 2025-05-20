@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  #main-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 15px 0; /* Padding top and bottom */
+    border-bottom: 5px solid #3e8e41; /* Dark green border */
+  }
+  
+  #main-header h1 {
+    font-size: 2.5em; /* Larger font size */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .tagline {
+    font-style: italic; /* Italicize the tagline */
+    font-size: 1.2em; /* Slightly larger font size */
+    margin-top: 10px; /* Add spacing below the header */
+  }
+  
+  /* Content Section Styling */
+  .content-section {
+    margin: 20px auto; /* Add margin top and bottom */
+    padding: 20px; /* Add padding inside the section */
+    max-width: 800px; /* Limit width for readability */
+    background-color: #fff; /* White background */
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .content-section h2 {
+    color: #4CAF50; /* Match header color */
+    font-family: 'Georgia', serif; /* Different font for headings */
+    font-size: 2em; /* Larger font size */
+    margin-bottom: 10px; /* Add spacing below the heading */
+  }
+  
+  .content-section p {
+    font-size: 1.1em; /* Slightly larger font size */
+    line-height: 1.8; /* Increase line height for readability */
+  }
+  
+  /* Image Styling */
+  .project-image {
+    display: block; /* Make the image a block element */
+    margin: 20px auto; /* Center the image with margin */
+    border: 5px solid #4CAF50; /* Green border around the image */
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Set fixed width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Footer Styling */
+  #main-footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 15px 0; /* Padding top and bottom */
+    margin-top: 20px; /* Add spacing above the footer */
+    border-top: 3px solid #4CAF50; /* Green border at the top */
+  }
+  
+  #main-footer p {
+    font-size: 1em; /* Standard font size */
+    margin: 0; /* Remove default margin */
+  }
